@@ -7,9 +7,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 /**
- * Created by MarileneQuintanilhaM on 24/06/2015.
- */
+* @author Nathan Santos - 08/07/2015
+*/
+
 public class LoginActivity extends Activity{
 
     private Button entrarbotao;
@@ -37,7 +39,7 @@ public class LoginActivity extends Activity{
                 String loginInserido = login.getText().toString();
                 String senhaInserido = senha.getText().toString();
 
-                if (loginInserido.equals("Natalia") && senhaInserido.equals("1994")) {
+                if (loginInserido.equals("Nathan") && senhaInserido.equals("Ucam2015")) {
                     result.setText("Bem vindo");
                 }
                 else{
